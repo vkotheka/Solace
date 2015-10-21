@@ -91,6 +91,7 @@ QUEUE_START="\
 </rpc>\
 "
 
+
 echo "${CREATE_QUEUE}" | curl -d @- -u "${CRED}" http://${IP}/SEMP
 echo "${QUEUE_ACC}" | curl -d @- -u "${CRED}" http://${IP}/SEMP
 echo "${QUEUE_PERM}" | curl -d @- -u "${CRED}" http://${IP}/SEMP
