@@ -6,6 +6,7 @@ VPN=testScript
 TOPIC=customer/create
 QUEUE=qCustAnalytics
 TOPIC1=a/b/c
+TOPIC1=d/e/f
 
 CREATE_QUEUE="\
 <rpc semp-version=\"soltr/6_1\">
@@ -72,6 +73,20 @@ SUB_TOPIC1="\
     </message-spool>
 </rpc>\
 "
+SUB_TOPIC2="\
+<rpc semp-version=\"soltr/6_1\">
+    <message-spool>
+        <vpn-name>${VPN}</vpn-name>
+        <queue>
+            <name>${QUEUE}</name>
+            <subscription>
+                <topic>${TOPIC2}</topic>
+            </subscription>
+        </queue>
+    </message-spool>
+</rpc>\
+"
+
 QUEUE_START="\
 <rpc semp-version=\"soltr/6_1\">
     <message-spool>
