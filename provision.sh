@@ -6,6 +6,7 @@ VPN=DataPowerDemo
 TOPIC=create/customer/vip
 QUEUE=VIPCustomer
 
+
 CREATE_QUEUE="\
 <rpc semp-version=\"soltr/6_1\">
     <message-spool>
