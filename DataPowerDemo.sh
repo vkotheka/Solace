@@ -1,10 +1,10 @@
 #!/bin/bash
 
-IP=52.23.167.0:8080
+IP=52.91.89.215:8080
 CRED=admin:admin
-VPN=Westpac_CICD
-TOPIC=customer/create
-QUEUE=qCustAnalytics
+VPN=DataPowerDemo
+TOPIC=create/customer/normal
+QUEUE=NormalCustomer
 
 CREATE_QUEUE="\
 <rpc semp-version=\"soltr/6_1\">
