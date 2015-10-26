@@ -3,8 +3,8 @@
 IP=52.91.89.215:8080
 CRED=admin:admin
 VPN=DataPowerDemo
-TOPIC=create/customer/vip
-QUEUE=VIPCustomer
+TOPIC=create/customer/normal
+QUEUE=NormalCustomer
 
 CREATE_QUEUE="\
 <rpc semp-version=\"soltr/6_1\">
