@@ -1,9 +1,9 @@
 #!/bin/bash
 
-IP=52.91.89.215:8080
+IP=52.23.229.18:8080
 CRED=admin:admin
 VPN=DataPowerDemo
-TOPIC=create/customer/normal
+TOPIC=create/customer/normalCust123
 QUEUE=NormalCustomer
 
 CREATE_QUEUE="\
