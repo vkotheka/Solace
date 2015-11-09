@@ -3,7 +3,7 @@
 IP=52.23.229.18:8080
 CRED=admin:admin
 VPN=DataPowerDemo
-TOPIC=create/customer/normalCust
+TOPIC=create/customer/normal
 QUEUE=NormalCustomer
 
 CREATE_QUEUE="\
